@@ -6692,6 +6692,15 @@ button.close {
     display: none !important;
   }
 }
+@media (max-width: 425px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .col-xs-6 {
+    width: 100%;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
     display: none !important;
