@@ -2,7 +2,7 @@ import React from "react";
 
 export const Header = (props) => {
   return (
-    <header id="header">
+    <header id="header" style={{paddingTop: "80px"}}>
       <div className="intro">
         <div className="overlay">
           <div className="container">
