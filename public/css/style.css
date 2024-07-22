@@ -243,6 +243,8 @@ a:focus,
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 /* Features Section */
@@ -599,6 +601,10 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
+.firstIntroMobileImg, .secondIntroMobileImg {
+  width: 100%;
+  display: none;
+}
 
 @media (max-width: 768px) {
   #about img {
@@ -610,4 +616,22 @@ label {
   header .intro-text h1, header .intro-text p {
     display: none;
   }
+
+  .firstIntroMobileImg, .secondIntroMobileImg {
+    width: 100%;
+    display: flex;
+  }
+
+  .intro {
+    background: unset;
+  }
+
+  header .intro-text {
+    padding-top: 9px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
 }

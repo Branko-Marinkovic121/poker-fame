@@ -8,6 +8,10 @@ export const Header = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
+                <img className="firstIntroMobileImg" src="img/about2.jpg" alt=""/>
+                <img className="firstIntroMobileImg" src="img/about2.jpg" alt=""/>
+                <img className="firstIntroMobileImg" src="img/about2.jpg" alt=""/>
+                <img className="secondIntroMobileImg" src="img/1.jpg" alt=""/>
                 <h1>
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
